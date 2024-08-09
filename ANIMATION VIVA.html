@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+    <link rel="stylesheet" href="HAIRSALOON/Hairsaloon.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=fire">
+    <title>BEAUTIFUL HAIR SALOON </title>
+</head>
+<body>
+<section id="Saloon">
+    <img src="HAIRSALOON/logo hy.png" class="header">
+    <div class="header-text">
+        <h1><span>H</span>A<span>I</span>R <span>S</span>A<span>L</span>O<span>O</span>N</h1>
+        <P>Hair Style is your Great Personality</P>
+        <div class="header-btn">
+<a href="#"><span></span>Find Out</a>
+<a href="#"><span></span>Read More</a>
+
+        </div>
+    </div>
+</section>
+    <div id="sideNav">
+        <nav>
+<ul>
+<li><a href="#">HONE</a></li>
+<li><a href="#">FEATURES</a></li>
+<li><a href="#">ORDER SERVICES</a></li>
+<li><a href="#">TESTIMONIALS</a></li>
+<li><a href="#">MEET US</a></li>
+
+</ul>
+        </nav>
+    </div>
+    <div id="menuBtn">
+        <img src="HAIRSALOON/icons8-menu-64.png" id="menu">
+    </div>
+<!-- --------features -->
+ <section id="FEATURES"></section>
+<div class="title-text">
+    <p>FEATURES</p>
+    <h1>WHY CHOOSE US</h1>
+</div>
+<!-- <div class="FEATURES-BOX">
+    <div class="FEATURE">
+        <h1>Experienced Staff</h1>
+    </div> -->
+    <div class="FEATURES-DESC">
+        <DIV class="FEATURE-ICON">
+            <i class="fa fa-shield"></i>
+
+        </div>
+            <div class="FEATURE-TEXT">
+                <p>I Never Dreamed About Success.I Worked For It.
+                </p>
+    </div>
+    </div>
+    <h1>Pre Booking Online</h1>
+</div>
+<div class="FEATURES-DESC">
+    <DIV class="FEATURE-ICON">
+        <!-- <i class="fa fa-shield-check-square-o"></i>
+
+    </div> -->
+        <!-- <div class="FEATURE-TEXT">
+            <p>I Never Dreamed About Success.I Worked For It.
+            </p> -->
+</div>
+</div>
+<!-- <h1>Affortable Cost</h1>
+</div>
+<div class="FEATURES-DESC">
+    <DIV class="FEATURE-ICON">
+        <i class="fa fa-shield"></i>
+
+    </div>
+        <div class="FEATURE-TEXT">
+            <p>I Never Dreamed About Success.I Worked For It.
+            </p>
+</div>
+</div>
+    <!-- <!-- <DIV class="FEATURE-IMG"> > -->
+        <div class="FEATURE-IMG">
+<img src="HAIRSALOON/hair8.jpeg">
+    </DIV>
+</div> -->
+    <script>
+        var menuBtn = document.getElementById("menuBtn")
+        var sideNav = document.getElementById("sideNav")
+        var menu = document.getElementById("menu")
+
+        sideNav.style.right = "-250px";
+        
+        menuBtn.onclick = function(){
+            if(sideNav.style.right == "-250px"){
+            sideNav.style.right = "0";
+            menu.src = "HAIRSALOON/cancel.png";          
+        }
+        else{
+            sideNav.style.right = "-250px";
+            menu.src = "HAIRSALOON/menu.png";
+        }
+
+    }
+    </script>
+</body>
+</html>
